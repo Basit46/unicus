@@ -3,7 +3,7 @@ import Question from "./Question";
 
 const Questions = () => {
   return (
-    <div className="mt-[50px] w-full h-fit lg:flex px-[40px] lg:px-[60px] font-poppins">
+    <div className="mt-[50px] w-full h-fit lg:flex px-[20px] vsm:px-[40px] lg:px-[60px] font-poppins">
       <div className="w-full lg:w-[40%]">
         <h1 className="text-[3rem] leading-none xmd:leading-normal font-braah ">
           Want to know more?

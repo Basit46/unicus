@@ -3,7 +3,7 @@ import { FaTwitter, FaFacebook, FaTelegram, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="mt-[70px] bg-black h-fit w-full py-[40px] px-[40px] lg:px-[70px] lg:flex text-white font-poppins">
-      <div className="font-braah text-white text-[3rem] cursor-pointer">
+      <div className="font-braah text-white text-[2.5rem] vsm:text-[3rem] cursor-pointer">
         UnicusMobility
       </div>
 

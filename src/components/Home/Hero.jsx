@@ -21,7 +21,7 @@ const Hero = () => {
       </div>
       <div className="absolute top-0 w-full h-full bottom-0 bg-transparent">
         <Navbar isTransparent={true} />
-        <div className="px-[40px] xmd:pl-[100px] mt-[20px] md:mt-[40px] cursor-default">
+        <div className="px-[20px] vsm:px-[40px] xmd:pl-[100px] mt-[20px] md:mt-[40px] cursor-default">
           <h1 className="hero-h1 w-full md:w-[80%] xl:w-[50%] font-braah text-[3.5rem] md:text-[4.5rem] xl:text-[5rem]  leading-none">
             Modernize people's mobility with absolutely zero emissions
           </h1>

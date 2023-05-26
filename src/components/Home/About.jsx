@@ -3,9 +3,11 @@ import biker from "../../assets/biker.jpg";
 
 const About = () => {
   return (
-    <div className="h-fit lg:h-[100vh] w-full lg:flex justify-between gap-[100px] px-[40px] lg:px-0 lg:pl-[70px]">
-      <div className="flex-1 pt-[100px]">
-        <h1 className="font-braah text-[5rem]">About Us</h1>
+    <div className="h-fit lg:h-[100vh] w-full lg:flex justify-between gap-[100px] px-[20px] vsm:px-[40px] lg:px-0 lg:pl-[70px]">
+      <div className="flex-1 pt-[40px] vsm:pt-[100px]">
+        <h1 className="font-braah text-[5rem] leading-none vsm:leading-normal">
+          About Us
+        </h1>
         <p className="text-[1.3rem] font-poppins">
           Unicus Mobility is a startup venture that intends to improve people's
           access to efficient, eco-friendly, and technologically advanced

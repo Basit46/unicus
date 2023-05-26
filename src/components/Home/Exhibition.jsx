@@ -23,7 +23,7 @@ const Box = () => {
 const Exhibition = () => {
   return (
     <div className="exhibition relative mt-[80px] h-screen w-full overflow-hidden">
-      <div className="h-full w-full flex flex-col items-center p-[30px] lg:px-0 lg:pt-[100px]">
+      <div className="h-full w-full flex flex-col items-center pt-[100px] vsm:pt-0 p-[20px] vsm:p-[30px] lg:px-0 lg:pt-[100px]">
         <h1 className="text-center text-[1.5rem] xmd:text-[2rem] text-white font-braah">
           <span className="text-[red]">Love</span> is always on the road
           <br />

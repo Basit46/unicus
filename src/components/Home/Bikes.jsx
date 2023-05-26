@@ -6,9 +6,9 @@ import Bike from "./Bike";
 
 const Bikes = () => {
   return (
-    <div className="min-h-[100vh] w-full px-[40px] xmd:px-[60px] font-poppins pt-[40px]">
+    <div className="min-h-[100vh] w-full px-[20px] vsm:px-[40px] xmd:px-[60px] font-poppins pt-[40px]">
       <div className="w-full h-fit flex justify-between items-center">
-        <h1 className="font-braah font-bold text-[4rem] xmd:text-[5rem] leading-none">
+        <h1 className="font-braah font-bold text-[3rem] vsm:text-[4rem] xmd:text-[5rem] leading-none">
           Our Bikes
         </h1>
         <Link
