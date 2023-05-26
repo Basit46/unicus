@@ -13,7 +13,7 @@ const Cart = () => {
   return (
     <>
       <Navbar isTransparent={false} />
-      <div className="px-[60px] pt-[33px] w-full flex gap-[21px] font-poppins">
+      <div className="px-[10px] vsm:px-[40px] xmd:px-[60px] pt-[33px] w-full xl:flex gap-[21px] font-poppins">
         <div className="flex-1">
           <table className="w-full">
             <thead>
@@ -21,7 +21,7 @@ const Cart = () => {
                 <th className="pl-[10px]">Product</th>
                 <th>Price</th>
                 <th>Quantity</th>
-                <th>Subtotal</th>
+                <th className="hidden md:block">Subtotal</th>
                 <th></th>
               </tr>
             </thead>
@@ -32,22 +32,22 @@ const Cart = () => {
             </tbody>
           </table>
 
-          <div className="mt-[31px] flex items-center gap-[30px]">
+          <div className="mt-[31px] xmd:flex items-center xmd:gap-[30px]">
             <Link to="/products">
-              <button className="mt-[41px] w-[295px] bg-gold  rounded-[32.4242px] font-semibold text-[22.697px] leading-[34px] text-white py-[19.5px]">
+              <button className="mt-[00px] vsm:mt-[41px] w-[223px] vsm:w-[295px] bg-gold  rounded-[32.4242px] font-semibold text-[17px] vsm:text-[22.697px] leading-[34px] text-white py-[19.5px]">
                 Continue shopping
               </button>
             </Link>
             <button
               onClick={clearCart}
-              className="mt-[41px] w-[223px] border border-[#C33131] hover:bg-[#C33131] hover:text-white rounded-[32.4242px] font-semibold text-[22.697px] leading-[34px] text-[#C33131] py-[19.5px]"
+              className="mt-[10px] vsm:mt-[41px] w-[223px] border border-[#C33131] hover:bg-[#C33131] hover:text-white rounded-[32.4242px] font-semibold text-[22.697px] leading-[34px] text-[#C33131] py-[19.5px]"
             >
               Clear cart
             </button>
           </div>
         </div>
 
-        <div className="w-[27%]">
+        <div className="w-fit xl:w-[27%] mt-[40px] xl:mt-0">
           <div className="bg-lightblue w-full h-[56px] grid place-items-center font-medium text-[20.68px] leading-[31px] text-[#232323]">
             Cart total
           </div>

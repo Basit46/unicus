@@ -26,12 +26,12 @@ const ProductDetail = () => {
   return (
     <div className="">
       <Navbar isTransparent={false} />
-      <div className="flex py-[30px] px-[60px] font-poppins">
-        <div className="w-[60%] h-full">
+      <div className="lg:flex py-[30px] px-[20px] vsm:px-[30px] lg:px-[60px] font-poppins">
+        <div className="w-full lg:w-[60%] h-full">
           <img src={bike?.img} alt="bike" />
         </div>
 
-        <div className="w-[40%] h-full px-[30px]">
+        <div className="w-full sm:w-[80%] lg:w-[40%] h-full md:px-[30px]">
           <h1 className="text-[2rem] font-braah">{bike?.title}</h1>
           <p className="text-[1.4rem] font-medium">{bike?.description}</p>
           <div className="w-full flex justify-between mt-[10px]">

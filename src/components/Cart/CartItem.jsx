@@ -14,7 +14,7 @@ const CartItem = ({ item }) => {
       <td>$ {item.price}</td>
       <td>{item.rate}</td>
 
-      <td>$ {item.amount}</td>
+      <td className="hidden md:block">$ {item.amount}</td>
 
       <td
         onClick={() => dispatch({ type: "remove", payload: { id: item.id } })}

@@ -12,10 +12,6 @@
 }
 
 .hero-h1 {
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent; */
   color: white;
   -webkit-text-stroke: 3px black;
 }
@@ -44,4 +40,12 @@
 th,
 td {
   text-align: left;
+}
+
+@media screen and (max-width: 400px) {
+  th,
+  td {
+    text-align: center;
+    padding: 1px;
+  }
 }
