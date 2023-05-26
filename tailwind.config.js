@@ -13,6 +13,10 @@ export default {
         blue: "#003F62",
         lightblue: "#E2F4FF",
       },
+      screens: {
+        vsm: "400px",
+        xmd: "800px",
+      },
     },
   },
   plugins: [],

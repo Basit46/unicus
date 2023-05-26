@@ -5,7 +5,7 @@ import { useCartContext } from "../../context/cart.context";
 const Bike = ({ bike }) => {
   const { handleAddToCart } = useCartContext();
   return (
-    <div className="bike-cont relative border-[2px] border-black w-[48%] h-[350px] font-poppins">
+    <div className="bike-cont relative border-[2px] border-black w-full xmd:w-[48%] h-[350px] font-poppins">
       <Link to={`/products/${bike.id}`}>
         <img
           className="h-full w-full object-contain duration-[1s]"

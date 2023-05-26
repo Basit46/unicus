@@ -2,12 +2,12 @@ import React from "react";
 import { FaTwitter, FaFacebook, FaTelegram, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="mt-[70px] bg-black h-fit w-full py-[40px] px-[70px] flex text-white font-poppins">
+    <footer className="mt-[70px] bg-black h-fit w-full py-[40px] px-[40px] lg:px-[70px] lg:flex text-white font-poppins">
       <div className="font-braah text-white text-[3rem] cursor-pointer">
         UnicusMobility
       </div>
 
-      <div className="ml-[120px] flex gap-[60px] text-[1.3rem]">
+      <div className="lg:ml-[120px] flex gap-[60px] text-[1.3rem]">
         <ul>
           <li>About us</li>
           <li>Contact us</li>

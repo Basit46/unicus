@@ -3,7 +3,7 @@ import biker from "../../assets/biker.jpg";
 
 const About = () => {
   return (
-    <div className="h-[100vh] w-full flex justify-between gap-[100px] pl-[70px]">
+    <div className="h-fit lg:h-[100vh] w-full lg:flex justify-between gap-[100px] px-[40px] lg:px-0 lg:pl-[70px]">
       <div className="flex-1 pt-[100px]">
         <h1 className="font-braah text-[5rem]">About Us</h1>
         <p className="text-[1.3rem] font-poppins">
@@ -20,7 +20,7 @@ const About = () => {
           to the environment and their wallets.
         </p>
       </div>
-      <div className="w-fit h-full">
+      <div className="w-fit h-full my-[40px] lg:my-0">
         <img className="w-full h-full object-contain" src={biker} alt="biker" />
       </div>
     </div>

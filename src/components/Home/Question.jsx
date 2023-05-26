@@ -10,7 +10,7 @@ const Question = () => {
         onClick={() => setOpen((prev) => !prev)}
         className="flex justify-between py-[20px] leading-none hover:bg-[#c0bebe] cursor-pointer px-[10px]"
       >
-        <h1 className="font-braah text-[1.5rem]">
+        <h1 className="font-braah text-[1.2rem] md:text-[1.5rem]">
           What accessories can I use for my bike
         </h1>
         <FaChevronDown
@@ -21,7 +21,7 @@ const Question = () => {
       </div>
       <div
         className={`${
-          open ? "h-[90px]" : "h-0"
+          open ? "h-[150px] md:h-[90px]" : "h-0"
         } px-[10px] overflow-hidden duration-1000`}
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
