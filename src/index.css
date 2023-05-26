@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Braah+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  footer li {
+    @apply mb-[20px] text-white/70 hover:text-white duration-200 cursor-pointer;
+  }
+}
+
+.hero-h1 {
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent; */
+  color: white;
+  -webkit-text-stroke: 3px black;
+}
+
+.exhibition {
+  background-image: url("./assets/earth.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.bike-cont {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  perspective-origin: center;
+}
+.bike-cont:hover img {
+  transform: rotateY(180deg);
+}
+
+.hover-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 20vw);
+  grid-template-rows: repeat(4, 20vh);
+}
+
+th,
+td {
+  text-align: left;
+}
