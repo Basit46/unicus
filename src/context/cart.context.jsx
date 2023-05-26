@@ -22,6 +22,8 @@ const reducer = (state, action) => {
 };
 
 const CartContextProvider = ({ children }) => {
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
   const [cartItems, dispatch] = useReducer(reducer, []);
   const [subTotal, setSubTotal] = useState("0.00");
 
@@ -58,6 +60,8 @@ const CartContextProvider = ({ children }) => {
   return (
     <CartContext.Provider
       value={{
+        videoLoaded,
+        setVideoLoaded,
         cartItems,
         dispatch,
         handleAddToCart,

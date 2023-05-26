@@ -1,12 +1,20 @@
 import React from "react";
 import Navbar from "../Navbar";
 import vid from "../../assets/bikeVid2.mp4";
+import { useCartContext } from "../../context/cart.context";
 
 const Hero = () => {
+  const { setVideoLoaded } = useCartContext();
   return (
     <div className="relative h-[100vh]">
       <div className="h-full">
-        <video muted autoPlay loop className="h-full w-full object-cover">
+        <video
+          onLoadedData={() => setVideoLoaded(true)}
+          muted
+          autoPlay
+          loop
+          className="h-full w-full object-cover"
+        >
           <source src={vid} type="video/mp4" />
           Your Browser can display this video weyrey
         </video>
