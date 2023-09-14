@@ -10,7 +10,7 @@ import Products from "./pages/Products";
 
 function App() {
   return (
-    <div className="">
+    <div className="max-w-[1400px] mx-auto">
       <Preloader />
 
       <Routes>
