@@ -8,9 +8,12 @@ const Box = () => {
     e.target.textContent = "";
     e.target.style.borderColor = "transparent";
   };
+
   return (
     <div
       onMouseOver={(e) => handleHover(e)}
+      onFocus={(e) => handleHover(e)}
+      tabIndex={0}
       className="hidden xmd:grid place-items-center bg-[green] border-black border-[2px] box-border"
     >
       <h1 className="text-center text-white text-[1.3rem] font-bold">

@@ -6,19 +6,18 @@ const Question = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className={`border-b-[gray] border-b-[2px] ${open && "pb-[20px"}`}>
-      <div
-        onClick={() => setOpen((prev) => !prev)}
-        className="flex justify-between py-[20px] leading-none vsm:hover:bg-[#c0bebe] cursor-pointer px-[10px]"
-      >
-        <h1 className="font-braah text-[1.2rem] md:text-[1.5rem]">
-          What accessories can I use for my bike
-        </h1>
-        <FaChevronDown
-          className={`${
-            open ? "rotate-[0deg]" : "rotate-[180deg]"
-          } duration-1000`}
-        />
-      </div>
+      <button className="w-full" onClick={() => setOpen((prev) => !prev)}>
+        <div className="w-full flex justify-between py-[20px] leading-none vsm:hover:bg-[#c0bebe] cursor-pointer px-[10px]">
+          <h1 className="font-braah text-[1.2rem] md:text-[1.5rem]">
+            What accessories can I use for my bike
+          </h1>
+          <FaChevronDown
+            className={`${
+              open ? "rotate-[0deg]" : "rotate-[180deg]"
+            } duration-1000`}
+          />
+        </div>
+      </button>
       <div
         className={`${
           open ? "h-[200px] vsm:h-[150px] md:h-[90px]" : "h-0"
